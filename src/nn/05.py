@@ -10,9 +10,7 @@ D V
 '''
 import numpy as np
 
-X = np.matrix([[1, 60], 
-				[1, 50], 
-				[1, 75]])
+X = np.matrix([[1, 60], [1, 50], [1, 75]])
 
 Y = np.matrix([[10], [7], [12]])
 
