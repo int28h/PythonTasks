@@ -106,3 +106,18 @@ elif 25 <= age <= 59:
     print('зрелость')
 else:
     print('старость')
+
+'''
+Напишите программу, которая считывает три числа и подсчитывает сумму только положительных чисел.
+'''
+one = int(input())
+two = int(input())
+three = int(input())
+
+sum = 0
+
+if one > 0: sum = sum + one
+if two > 0: sum = sum + two
+if three > 0: sum = sum + three
+
+print(sum)
