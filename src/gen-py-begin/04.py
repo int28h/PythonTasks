@@ -222,3 +222,20 @@ if (abs(col1 - col2) == 1 or abs(col1 - col2) == 0) and (abs(row1 - row2) == 1 o
     print('YES')
 else:
     print('NO')
+
+'''
+На вход программе подаётся два целых числа n и k, скорость Зума и Флэша.
+
+Формат выходных данных
+Если Зум быстрее Флэша нужно вывести «NO», если Флэш быстрее Зума нужно вывести «YES»,
+если их скорости равны нужно вывести "Don't know".
+'''
+n = int(input())
+k = int(input())
+if n > k:
+    print('NO')
+else:
+    if n == k:
+        print('Don\'t know')
+    else:
+        print('YES')
