@@ -4,6 +4,7 @@
 [02](src/gen-py-begin/02.py) Параметры sep и end  
 [03](src/gen-py-begin/03.py) Целочисленная арифметика  
 [04](src/gen-py-begin/04.py) Условный оператор  
+[05](src/gen-py-begin/05.py) Типы данных  
 
 
 
