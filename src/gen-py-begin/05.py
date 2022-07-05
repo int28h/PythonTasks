@@ -5,3 +5,11 @@ a = float(input())
 b = float(input())
 print(0.5 * a * b)
 
+'''
+Две старушки идут навстречу друг другу с постоянными скоростями V1​ и V2​ км/ч.
+Определите, через какое время старушки встретятся, если расстояние между ними равно S км.
+'''
+s = float(input())
+v_first = float(input())
+v_second = float(input())
+print(s / (v_first + v_second))
