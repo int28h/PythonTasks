@@ -49,3 +49,9 @@ else:
 '''
 input = float(input())
 print(int(input * 10  % 10))
+
+'''
+Дано положительное действительное число. Выведите его дробную часть.
+'''
+input = float(input())
+print(input % int(input))
