@@ -66,3 +66,13 @@ d = int(input())
 e = int(input())
 print('Наименьшее число =', min(a, b, c, d, e))
 print('Наибольшее число =', max(a, b, c, d, e))
+
+'''
+Напишите программу, которая упорядочивает три числа от большего к меньшему.
+'''
+a = int(input())
+b = int(input())
+c = int(input())
+print(max(a, b, c))
+print((a+b+c) - (max(a, b, c)) - (min(a, b, c)))
+print(min(a, b, c))
