@@ -89,3 +89,13 @@ if max(a, b, c) - min(a, b, c) == mid:
     print('Число интересное')
 else:
     print('Число неинтересное')
+
+'''
+Даны пять чисел​. Напишите программу, которая вычисляет сумму их модулей.
+'''
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+print(abs(a) + abs(b) + abs(c) + abs(d) + abs(e))
