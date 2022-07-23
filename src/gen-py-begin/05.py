@@ -111,3 +111,12 @@ p2 = int(input())
 q1 = int(input())
 q2 = int(input())
 print(abs(p1 - q1) + abs(p2 - q2))
+
+'''
+Напишите программу, которая выводит текст:
+"Python is a great language!", said Fred. "I don't ever remember having this much fun before."
+'''
+print("\"Python is a great language!\", said Fred. \"I don't ever remember having this much fun before.\"")
+
+'''
+'''
