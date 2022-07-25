@@ -119,4 +119,9 @@ print(abs(p1 - q1) + abs(p2 - q2))
 print("\"Python is a great language!\", said Fred. \"I don't ever remember having this much fun before.\"")
 
 '''
+Напишите программу, которая считывает с клавиатуры две строки – имя и фамилию пользователя и выводит фразу:
+«Hello [введенное имя] [введенная фамилия]! You just delved into Python».
 '''
+firstname = input()
+lastname = input()
+print("Hello " + firstname + " " + lastname + "! You just delved into Python", sep = '')
