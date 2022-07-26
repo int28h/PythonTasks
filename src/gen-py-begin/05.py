@@ -125,3 +125,10 @@ print("\"Python is a great language!\", said Fred. \"I don't ever remember havin
 firstname = input()
 lastname = input()
 print("Hello " + firstname + " " + lastname + "! You just delved into Python", sep = '')
+
+'''
+Напишите программу, которая считывает с клавиатуры название футбольной команды и выводит фразу:
+«Футбольная команда [введённая строка] имеет длину [длина введённой строки] символов».
+'''
+teamname = input()
+print("Футбольная команда " + teamname + " имеет длину " + str(len(teamname)) + " символов", sep='')
