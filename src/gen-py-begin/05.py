@@ -132,3 +132,13 @@ print("Hello " + firstname + " " + lastname + "! You just delved into Python", s
 '''
 teamname = input()
 print("Футбольная команда " + teamname + " имеет длину " + str(len(teamname)) + " символов", sep='')
+
+'''
+Даны названия трех городов. Напишите программу, которая определяет самое короткое
+и самое длинное название города.
+'''
+one = input()
+two = input()
+three = input()
+print(min(one, two, three, key=len))
+print(max(one, two, three, key=len))
