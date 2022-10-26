@@ -186,3 +186,52 @@ if '@' in input and '.' in input:
     print('YES')
 else:
     print('NO')
+
+'''
+На плоскости евклидово расстояние между двумя точками (x1; y1) и (x2; y2)
+определяется так ρ=sqrt((x1−x2)^2+(y1−y2)^2)
+Напишите программу определяющую евклидово расстояние между двумя точками, координаты которых заданы.
+'''
+import math
+
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+
+print(math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2))
+
+'''
+Напишите программу определяющую площадь круга и длину окружности по заданному радиусу R.
+'''
+import math
+
+r = float(input())
+
+print(math.pi * pow(r, 2))
+print(2 * math.pi * r)
+
+'''
+На вход программе подается два вещественных числа a и b​, каждое на отдельной строке.
+Программа должна вывести 4 числа – среднее арифметическое, геометрическое, гармоническое и квадратичное.
+'''
+import math
+
+a = float(input())
+b = float(input())
+
+print((a + b) / 2)
+print(math.sqrt(a * b))
+print((2 * a * b) / (a + b))
+print(math.sqrt((pow(a, 2) + pow(b, 2)) / 2))
+
+'''
+Напишите программу, вычисляющую значение тригонометрического выражения
+sin⁡x+cos⁡x+(tan⁡ x)^2 по заданному числу градусов x.
+'''
+import math
+
+xGrades = float(input())
+xRads = (xGrades * math.pi) / 180
+
+print(math.sin(xRads) + math.cos(xRads) + pow(math.tan(xRads), 2))
