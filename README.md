@@ -5,6 +5,7 @@
 [03](src/gen-py-begin/03.py) Целочисленная арифметика  
 [04](src/gen-py-begin/04.py) Условный оператор  
 [05](src/gen-py-begin/05.py) Типы данных  
+[06](src/gen-py-begin/06.py) Циклы for и while  
 
 
 
