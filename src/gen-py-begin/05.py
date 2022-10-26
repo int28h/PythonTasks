@@ -235,3 +235,45 @@ xGrades = float(input())
 xRads = (xGrades * math.pi) / 180
 
 print(math.sin(xRads) + math.cos(xRads) + pow(math.tan(xRads), 2))
+
+'''
+Напишите программу, вычисляющую значение ⌈x⌉ +⌊x⌋ по заданному вещественному числу x.
+'''
+import math
+
+x = float(input())
+
+print(math.floor(x) + math.ceil(x))
+
+'''
+Даны три вещественных числа a, b, c. Напишите программу, которая находит
+вещественные корни квадратного уравнения.
+'''
+import math
+
+a = float(input())
+b = float(input())
+c = float(input())
+
+d = pow(b, 2) - 4 * a * c
+
+if d < 0:
+    print('Нет корней')
+elif d == 0:
+    print(-b / (2 * a))
+elif d > 0:
+    x1 = (-b - d ** 0.5) / (2 * a)
+    x2 = (-b + d ** 0.5) / (2 * a)
+    print(min(x1, x2))
+    print(max(x1, x2))
+
+'''
+Даны два числа: натуральное число n и вещественное число a.
+Напишите программу, которая находит площадь указанного правильного многоугольника.
+'''
+import math
+
+n = float(input())
+a = float(input())
+
+print((n * pow(a, 2)) / (4 * math.tan(math.pi / n)))
